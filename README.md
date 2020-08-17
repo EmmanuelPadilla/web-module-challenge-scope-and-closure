@@ -42,6 +42,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
++++ in my understanding its that it is a fuction, within a function that is not usable outside of the scope of the original function. you also `return` the data of the interior function so that that data is usable by the exterior function. it also stores the internal funcion's value.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,7 +65,9 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
++++ where the random function is declared
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
++++ 
 c. What is the lexical scope of `newRoll`? 
 
 ### Task 2c - Exit Ticket
